@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container-top {
+    background-color: lightblue;
+    min-width: 700px;
+    min-height: 300px;
+}
+
+.conatiner-mid {
+    background-color: cornflowerblue;
+    min-width: 700px;
+    min-height: 300px;
+
+}
+
+.container-bottom {
+    background-color: aqua;
+    min-width: 700px;
+    min-height: 300px;
+}
+
+.img {
+    min-height: 50px;
+    min-width: 50px;
+}
